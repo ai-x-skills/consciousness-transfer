@@ -6,7 +6,8 @@ description: >
   四阶段认知内化方法论：通过引导式对话将结构化知识转化为可执行的认知技能。
   Use when the user wants to deeply learn a mental model, decision framework, or thinking pattern —
   not just read about it. 当用户想要深入内化一个思维模型、决策框架或认知模式时触发。
-trigger: User wants to internalize a cognitive pattern, describes a real-world dilemma
+trigger: >
+  User wants to internalize a cognitive pattern, describes a real-world dilemma
   seeking wisdom, or asks to deeply understand a thinking model.
   用户想内化一个认知模式、描述真实困境寻求智慧、或想深入理解一个思维模型。
   Keywords: 感悟用破, 认知内化, 思维模型学习, 意识体, 决策框架, thinking model,
@@ -179,12 +180,12 @@ If the user provides a knowledge entry directly, skip to Phase 1.
 4. After the user answers, cross-check:
    - Against `decision_tree`: Does their reasoning path match?
    - Against `counter_example`: Are they falling into a historical pitfall?
-   - If there's a deviation, point it out without否定 — ask: "If the result were X, which step do you think went wrong?"
+   - If there's a deviation, point it out without negating — ask: "If the result were X, which step do you think went wrong?"
 
 5. Deliver an **action checklist**:
    - 1-3 specific things the user should do in their own situation
    - Each item maps to a model step
-   - Expected阻力 (from `counter_example`)
+   - Expected resistance (from `counter_example`)
 
 **Constraints**:
 - Must land in the user's real scenario — no staying theoretical.
