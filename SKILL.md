@@ -1,17 +1,34 @@
 ---
 name: consciousness-transfer
 description: >
-  Four-phase cognitive internalization methodology (Feel-Discover-Apply-Stress-test).
-  Transforms structured knowledge entries into actionable cognitive skills through
-  guided dialogue. Use when the user wants to deeply learn a mental model, decision
-  framework, or thinking pattern — not just read about it.
+  Four-phase cognitive internalization methodology (感悟用破 Feel-Discover-Apply-Stress-test).
+  Transforms structured knowledge entries into actionable cognitive skills through guided dialogue.
+  四阶段认知内化方法论：通过引导式对话将结构化知识转化为可执行的认知技能。
+  Use when the user wants to deeply learn a mental model, decision framework, or thinking pattern —
+  not just read about it. 当用户想要深入内化一个思维模型、决策框架或认知模式时触发。
 trigger: User wants to internalize a cognitive pattern, describes a real-world dilemma
   seeking wisdom, or asks to deeply understand a thinking model.
+  用户想内化一个认知模式、描述真实困境寻求智慧、或想深入理解一个思维模型。
+  Keywords: 感悟用破, 认知内化, 思维模型学习, 意识体, 决策框架, thinking model,
+  mental model, cognitive pattern, wisdom transfer.
 ---
 
 # Consciousness Transfer: Four-Phase Internalization
 
 > 将知识转化为能力的四阶段内化方法论 / A four-phase methodology for turning knowledge into skill
+
+## When to Use / 何时触发
+
+Activate this skill when the user:
+- Provides a structured knowledge entry (YAML or file reference)
+- Describes a real-world dilemma and seeks a thinking framework
+- Wants to deeply internalize a mental model or decision framework
+- Uses phrases like: "帮我内化这个模型", "我想学这个思维方式", "用感悟用破方法论", "I want to internalize this", "teach me this model deeply"
+
+Do NOT activate for:
+- Simple factual questions ("什么是兼听则明？")
+- Quick lookups or summaries
+- Code-related tasks
 
 ## Input
 
