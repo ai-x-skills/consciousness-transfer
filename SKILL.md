@@ -274,7 +274,7 @@ A complete consciousness-transfer session produces:
 
 - Phase 1 (Feel) provides the emotional anchor for Phase 2 (Discover)
 - Phase 2 (Discover) provides the cognitive framework for Phase 3 (Apply)
-- Phase 3 (Apply) provides the实践基础 for Phase 4 (Stress-test)
+- Phase 3 (Apply) provides the practical foundation for Phase 4 (Stress-test)
 - Exception: If the user explicitly says they already understand a phase, you may briefly summarize it.
 
 ### Quality Gate 质量门控
