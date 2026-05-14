@@ -4,8 +4,7 @@ description: >
   Four-phase cognitive internalization methodology (Feel-Discover-Apply-Stress-test).
   Transforms structured knowledge entries into actionable cognitive skills through
   guided dialogue. Use when the user wants to deeply learn a mental model, decision
-  framework, or thinking pattern — not just read about it. Part of the Emperor Cognition
-  project (帝王认知体).
+  framework, or thinking pattern — not just read about it.
 trigger: User wants to internalize a cognitive pattern, describes a real-world dilemma
   seeking wisdom, or asks to deeply understand a thinking model.
 ---
@@ -19,10 +18,10 @@ trigger: User wants to internalize a cognitive pattern, describes a real-world d
 Provide a structured knowledge entry in one of three ways:
 
 1. **Inline YAML** — paste the knowledge entry directly in the conversation
-2. **File reference** — point to a YAML file (e.g., `examples/tang_taizong_decision.yaml`)
+2. **File reference** — point to a YAML file (e.g., `references/tang_taizong_decision.yaml`)
 3. **Situation description** — describe your real-world dilemma; the skill will match it to a relevant entry
 
-Bundled examples are available in [`examples/`](./examples/):
+Bundled examples are available in [`references/`](./references/):
 - `tang_taizong_decision.yaml` — Tang Taizong's decision framework (唐太宗兼听则明)
 - `munger_multimodel.yaml` — Charlie Munger's latticework of mental models
 

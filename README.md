@@ -45,7 +45,19 @@ npx skills add ai-x-skills/consciousness-transfer -g -y
 
 You can provide a knowledge entry in three ways:
 
-**Option A**: Inline YAML in your message
+**Option A** (easiest): Describe your situation in natural language
+```
+I'm a product manager deciding whether to pivot. The engineering team
+says stay, the sales team says pivot. Help me think through this.
+```
+The skill will match your situation to a relevant knowledge entry and guide you through it.
+
+**Option B**: Point to a YAML file
+```
+Learn this model: references/tang_taizong_decision.yaml
+```
+
+**Option C**: Inline YAML in your message
 ```yaml
 title: "兼听则明"
 description: "Seek opposing viewpoints before deciding"
@@ -57,18 +69,6 @@ mental_model:
   - "Decide + track"
 counter_example: "隋炀帝只听支持者意见，三次征高丽失败"
 ```
-
-**Option B**: Point to a YAML file
-```
-Learn this model: examples/tang_taizong_decision.yaml
-```
-
-**Option C**: Describe your situation
-```
-I'm a product manager deciding whether to pivot. The engineering team
-says stay, the sales team says pivot. Help me think through this.
-```
-The skill will match your situation to a relevant knowledge entry.
 
 **Step 3**: Let the skill guide you through four phases
 
@@ -134,9 +134,9 @@ source_text: "Original source"
 source_citation: "Reference"
 ```
 
-See [`examples/`](./examples/) for complete examples:
-- [`tang_taizong_decision.yaml`](./examples/tang_taizong_decision.yaml) — Tang Taizong's decision framework (唐太宗兼听则明)
-- [`munger_multimodel.yaml`](./examples/munger_multimodel.yaml) — Charlie Munger's latticework of mental models
+See [`references/`](./references/) for complete examples:
+- [`tang_taizong_decision.yaml`](./references/tang_taizong_decision.yaml) — Tang Taizong's decision framework (唐太宗兼听则明)
+- [`munger_multimodel.yaml`](./references/munger_multimodel.yaml) — Charlie Munger's latticework of mental models
 
 ---
 
