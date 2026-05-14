@@ -1,0 +1,64 @@
+# 芒格多元思维模型 / Charlie Munger's Latticework of Mental Models
+# 来源：《穷查理宝典》/ Source: Poor Charlie's Almanack
+
+title: 多元模型
+description: >
+  面对复杂问题时，不依赖单一学科的分析框架，而是调用多个学科的核心模型，
+  寻找它们的交叉点。查理·芒格认为，80%的智慧来自少数几个大模型。
+  When facing complex problems, don't rely on a single discipline's framework.
+  Instead, invoke core models from multiple disciplines and find their intersections.
+
+mental_model:
+  - "Define the problem clearly: What exactly are you trying to figure out?"
+  - "Identify which discipline(s) the problem belongs to: Economics? Psychology? Biology? Physics?"
+  - "Invoke the 2-3 most relevant core models from each discipline:"
+    - "Economics: Opportunity cost, supply/demand, incentives"
+    - "Psychology: Confirmation bias, social proof, loss aversion"
+    - "Biology: Evolution, adaptation, survival of the fittest"
+    - "Physics: Equilibrium, feedback loops, critical mass"
+  - "Look for intersections: Where do multiple models point to the same conclusion?"
+  - "Check for contradictions: Where do models disagree? That's where judgment matters most."
+  - "Make the decision based on the weight of converging models, not any single one."
+
+context_trigger: >
+  When facing a complex, multi-dimensional problem where single-discipline
+  analysis feels insufficient. Especially useful for investment decisions,
+  strategic planning, and evaluating human behavior.
+
+decision_tree:
+  "Problem is purely technical": "Use engineering/physics models; psychology is less relevant"
+  "Problem involves human behavior": "Lead with psychology models; economics as supplement"
+  "Problem has long time horizons": "Add biology/evolution models for slow-moving dynamics"
+  "Models disagree fundamentally": "Identify which model's assumptions are most likely wrong"
+  "All models converge": "High confidence — but still check for black swans"
+
+modern_parallel: >
+  An investor evaluating a tech startup. Instead of just looking at financials
+  (economics model), they also consider: the founder's psychology (are they
+  overconfident?), the market's evolutionary stage (is it early or saturated?),
+  and network effects (physics: does it hit critical mass?). When all four
+  models point to "invest," confidence is high. When they diverge, that's
+  where the real analysis begins.
+
+counter_example: >
+  芒格本人在伯克希尔早期过度依赖"能力圈"模型，错过了亚马逊和谷歌。
+  他的"不投科技股"规则来自对自身认知边界的合理判断，但也成了思维牢笼。
+  这个模型的失败条件：当多个模型都指向同一个错误结论时（因为它们共享
+  相同的错误假设），多元反而强化了偏见。2008年金融危机中，几乎所有
+  金融模型都假设"房价不会全国性下跌"——多元模型共享同一个盲点。
+  Munger himself missed Amazon and Google by over-applying the "circle of
+  competence" model. The model fails when multiple models converge on the
+  same wrong conclusion because they share the same flawed assumption.
+  In 2008, nearly all financial models assumed "housing prices won't decline
+  nationally" — multiple models, one shared blind spot.
+
+effectiveness: effective
+confidence: 0.85
+source_text: >
+  "You need a different checklist and different mental models for different
+  categories of problems. You need roughly 100 mental models to have a
+  latticework in your head."
+  — Charlie Munger, Poor Charlie's Almanack
+source_citation: >
+  Poor Charlie's Almanack: The Wit and Wisdom of Charles T. Munger,
+  edited by Peter D. Kaufman, 3rd edition, 2005

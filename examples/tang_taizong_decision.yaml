@@ -1,0 +1,52 @@
+# 唐太宗决策框架 / Tang Taizong's Decision Framework
+# 来源：贞观政要 / Source: Zhenguan Zhengyao (Esserta of the Zhenguan Era)
+
+title: 兼听则明
+description: >
+  在重大决策前，主动寻找对立观点，通过信息对抗来发现盲点。
+  唐太宗以"以人为镜"闻名，核心不是听谏，而是结构化地制造观点冲突。
+  When making major decisions, actively seek opposing viewpoints and use
+  information confrontation to discover blind spots.
+
+mental_model:
+  - "Identify the decision: What exactly needs to be decided? Write it down in one sentence."
+  - "Seek the strongest反对意见: Who disagrees? What is their best argument?"
+  - "Seek the strongest支持意见: Who agrees? What is their best argument?"
+  - "Find the contradiction: Where do the two sides fundamentally differ? That's your breakthrough point."
+  - "Verify information sources: Which claims are backed by evidence? Which are speculation?"
+  - "Decide, then track: Make the decision. Set a review date. Measure the outcome."
+
+context_trigger: >
+  When facing a high-stakes decision with incomplete information,
+  especially when multiple stakeholders have conflicting interests.
+
+decision_tree:
+  "All advisors agree": "Be suspicious — seek a dissenting voice before deciding"
+  "Advisors are split 50/50": "Identify the core assumption each side makes; test both"
+  "One advisor is clearly right": "Still ask: what would the opposing view predict? Test that too"
+  "Time pressure is extreme": "Skip to Step 5 (verify sources), decide fast, review sooner"
+
+modern_parallel: >
+  A startup CEO deciding whether to pivot. The CTO says stay the course,
+  the CMO says pivot to a new market. Instead of picking a side, the CEO
+  asks: "What evidence would prove each of you wrong?" Then runs a small
+  experiment to test both predictions.
+
+counter_example: >
+  隋炀帝杨广在征高丽前，群臣几乎一致反对，但他只听支持者的意见，
+  忽视了所有警告信号。三次征高丽均失败，直接导致隋朝灭亡。
+  这个模型的失败条件：当决策者已经有强烈的先入为主时，"兼听"变成形式——
+  他只会寻找支持自己观点的证据，而非真正对立的观点。
+  Emperor Yang of Sui ignored unanimous反对 before his three failed
+  campaigns against Goguryeo. The model fails when the decision-maker
+  has strong priors — "seeking opposing views" becomes performative,
+  only finding evidence that supports the predetermined conclusion.
+
+effectiveness: effective
+confidence: 0.9
+source_text: >
+  太宗问魏征曰："人主何为而明，何为而暗？"对曰："兼听则明，偏信则暗。"
+  ——《资治通鉴》卷一九二
+source_citation: >
+  《资治通鉴》卷一九二，唐纪八，贞观二年（628年）
+  Zizhi Tongjian, Vol. 192, Tang Chronicle 8, Zhenguan Year 2 (628 CE)
