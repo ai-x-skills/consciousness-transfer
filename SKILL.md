@@ -16,6 +16,16 @@ trigger: User wants to internalize a cognitive pattern, describes a real-world d
 
 ## Input
 
+Provide a structured knowledge entry in one of three ways:
+
+1. **Inline YAML** — paste the knowledge entry directly in the conversation
+2. **File reference** — point to a YAML file (e.g., `examples/tang_taizong_decision.yaml`)
+3. **Situation description** — describe your real-world dilemma; the skill will match it to a relevant entry
+
+Bundled examples are available in [`examples/`](./examples/):
+- `tang_taizong_decision.yaml` — Tang Taizong's decision framework (唐太宗兼听则明)
+- `munger_multimodel.yaml` — Charlie Munger's latticework of mental models
+
 Provide a structured knowledge entry (inline or from a file):
 
 ```yaml

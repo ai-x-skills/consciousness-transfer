@@ -38,18 +38,41 @@ Phase 4: Stress   →  Know when it fails
 
 **Step 1**: Install
 ```bash
-npx skills add <owner>/consciousness-transfer -g -y
+npx skills add ai-x-skills/consciousness-transfer -g -y
 ```
 
 **Step 2**: Provide a knowledge entry
+
+You can provide a knowledge entry in three ways:
+
+**Option A**: Inline YAML in your message
 ```yaml
 title: "兼听则明"
 description: "Seek opposing viewpoints before deciding"
-mental_model: ["Identify the decision", "Seek strongest反对", "Seek strongest支持", "Find the contradiction", "Decide + track"]
+mental_model:
+  - "Identify the decision"
+  - "Seek strongest反对意见"
+  - "Seek strongest支持意见"
+  - "Find the contradiction"
+  - "Decide + track"
 counter_example: "隋炀帝只听支持者意见，三次征高丽失败"
 ```
 
+**Option B**: Point to a YAML file
+```
+Learn this model: examples/tang_taizong_decision.yaml
+```
+
+**Option C**: Describe your situation
+```
+I'm a product manager deciding whether to pivot. The engineering team
+says stay, the sales team says pivot. Help me think through this.
+```
+The skill will match your situation to a relevant knowledge entry.
+
 **Step 3**: Let the skill guide you through four phases
+
+The skill will automatically walk you through Feel → Discover → Apply → Stress-test, and produce a Usage Manual you can keep.
 
 ---
 
