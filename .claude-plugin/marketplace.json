@@ -15,10 +15,7 @@
         "name": "XaviLau"
       },
       "source": "./",
-      "strict": false,
-      "skills": [
-        "./"
-      ]
+      "strict": false
     }
   ]
 }
