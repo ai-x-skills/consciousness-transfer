@@ -1,0 +1,24 @@
+{
+  "name": "consciousness-transfer",
+  "owner": {
+    "name": "XaviLau"
+  },
+  "metadata": {
+    "description": "Four-phase cognitive internalization methodology (感悟用破). Transforms structured knowledge entries into actionable cognitive skills through guided dialogue.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "consciousness-transfer",
+      "description": "Four-phase cognitive internalization methodology (感悟用破 Feel-Discover-Apply-Stress-test). Transforms structured knowledge entries into actionable cognitive skills through guided dialogue. 四阶段认知内化方法论：通过引导式对话将结构化知识转化为可执行的认知技能。",
+      "author": {
+        "name": "XaviLau"
+      },
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./"
+      ]
+    }
+  ]
+}
