@@ -1,9 +1,10 @@
 # Consciousness Transfer
 
 > A four-phase methodology for turning knowledge into skill.
-> 将知识转化为能力的四阶段内化方法论。
+>
+> [中文文档 / Chinese Documentation](./README.zh-CN.md)
 
-**Part of the [Emperor Cognition](https://github.com/XaviLau/emperors-cc-aura) project.**
+**Part of the Emperor Cognition (帝王认知体) project.**
 
 ---
 
@@ -18,7 +19,7 @@ Phase 3: Apply    →  Use it in your real situation
 Phase 4: Stress   →  Know when it fails
 ```
 
-感悟用破 — inspired by Chinese classical education: 记 (memorize), 悟 (comprehend), 用 (apply), 化 (internalize).
+Inspired by Chinese classical education: 记 (memorize), 悟 (comprehend), 用 (apply), 化 (internalize).
 
 ---
 
@@ -34,12 +35,36 @@ Phase 4: Stress   →  Know when it fails
 
 ---
 
-## Quick Start
+## Installation
 
-**Step 1**: Install
+Choose any method that suits your workflow:
+
+### Method 1: npx (recommended)
 ```bash
 npx skills add ai-x-skills/consciousness-transfer -g -y
 ```
+
+### Method 2: Claude Code marketplace (GitHub)
+```bash
+claude plugin marketplace add https://github.com/ai-x-skills/consciousness-transfer.git --scope user
+claude plugin install consciousness-transfer@consciousness-transfer --scope user
+```
+
+### Method 3: Local directory marketplace
+```bash
+git clone https://github.com/ai-x-skills/consciousness-transfer.git
+claude plugin marketplace add /path/to/consciousness-transfer --scope user
+claude plugin install consciousness-transfer@consciousness-transfer --scope user
+```
+
+### Method 4: Manual copy
+Copy the `consciousness-transfer/` directory to `~/.claude/skills/` or `~/.claude/local-skills/`.
+
+---
+
+## Quick Start
+
+**Step 1**: Install (see above)
 
 **Step 2**: Provide a knowledge entry
 
@@ -63,11 +88,11 @@ title: "兼听则明"
 description: "Seek opposing viewpoints before deciding"
 mental_model:
   - "Identify the decision"
-  - "Seek strongest反对意见"
-  - "Seek strongest支持意见"
+  - "Seek strongest opposing arguments"
+  - "Seek strongest supporting arguments"
   - "Find the contradiction"
   - "Decide + track"
-counter_example: "隋炀帝只听支持者意见，三次征高丽失败"
+counter_example: "Emperor Yang of Sui ignored unanimous opposition and launched three failed campaigns"
 ```
 
 **Step 3**: Let the skill guide you through four phases
@@ -81,10 +106,10 @@ The skill will automatically walk you through Feel → Discover → Apply → St
 > User: "I'm a product manager deciding whether to pivot our product. The engineering team says stay, the sales team says pivot. I'm stuck."
 
 ### Phase 0: Match
-The skill matches this to the "兼听则明" (Seek Opposing Views) entry.
+The skill matches this to the "Seek Opposing Views" (兼听则明) entry.
 
 ### Phase 1: Feel
-The skill tells the story of Tang Taizong and Wei Zheng — how Taizong structured decision-making by seeking the strongest反对意见, not just the most comfortable one.
+The skill tells the story of Tang Taizong and Wei Zheng — how Taizong structured decision-making by seeking the strongest opposing viewpoint, not just the most comfortable one.
 
 > "Why do you think he actively sought the person who disagreed most?"
 
@@ -100,13 +125,13 @@ The user gradually articulates the model themselves.
 ### Phase 3: Apply
 The skill returns to the PM's situation:
 - "What does Step 1 (identify the decision) look like for you?"
-- "Who is your strongest反对 voice? What's their best argument?"
+- "Who is your strongest opposing voice? What's their best argument?"
 - "Where do engineering and sales fundamentally differ? That's your breakthrough point."
 
 Then delivers an action checklist.
 
 ### Phase 4: Stress-test
-The skill tells the counter-example: Emperor Yang of Sui ignored unanimous反对 and launched three failed campaigns.
+The skill tells the counter-example: Emperor Yang of Sui ignored unanimous opposition and launched three failed campaigns.
 
 > "If your team already has a strong prior, how would 'seeking opposing views' become performative?"
 
@@ -135,7 +160,7 @@ source_citation: "Reference"
 ```
 
 See [`references/`](./references/) for complete examples:
-- [`tang_taizong_decision.yaml`](./references/tang_taizong_decision.yaml) — Tang Taizong's decision framework (唐太宗兼听则明)
+- [`tang_taizong_decision.yaml`](./references/tang_taizong_decision.yaml) — Tang Taizong's decision framework
 - [`munger_multimodel.yaml`](./references/munger_multimodel.yaml) — Charlie Munger's latticework of mental models
 
 ---
@@ -159,7 +184,23 @@ The four phases map to how Chinese classical education worked:
 > Knowledge that you can apply but do not know its limits is dangerous.
 > Consciousness Transfer builds both ability AND wisdom.
 
-能回忆但不能用的知识不是技能。能用但不知道边界的技能是危险的。意识体迁移同时构建能力和智慧。
+---
+
+## Project Structure
+
+```
+consciousness-transfer/
+  .claude-plugin/
+    plugin.json              # Plugin identity manifest
+    marketplace.json         # Marketplace manifest for discovery & install
+  references/
+    tang_taizong_decision.yaml   # Tang Taizong's decision framework
+    munger_multimodel.yaml       # Charlie Munger's latticework of mental models
+  SKILL.md                   # Core skill instructions
+  README.md                  # This file
+  README.zh-CN.md            # Chinese documentation
+  LICENSE                    # MIT License
+```
 
 ---
 
@@ -174,7 +215,7 @@ Source    Consciousness  Quality   Internalization
 Material  Extraction     Gate      (this skill)
 ```
 
-- [Emperor Cognition Project](https://github.com/XaviLau/emperors-cc-aura)
+- Emperor Cognition (帝王认知体) project
 - 17 cognitive modules from Chinese imperial history
 - 5-test quality framework
 - Dual-layer description method (historical + abstract)
