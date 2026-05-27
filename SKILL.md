@@ -41,6 +41,9 @@ Provide a structured knowledge entry in one of three ways:
 
 Bundled examples are available in [`references/`](./references/):
 - `tang_taizong_decision.yaml` — Tang Taizong's decision framework (唐太宗兼听则明)
+- `han_wudi_multi_board.yaml` — Han Wudi's multi-board parallel game (汉武帝多棋盘并行博弈)
+- `ming_zhu_yuanzhang_startup.yaml` — Ming Taizu's startup three-phase model (明太祖借势立威独行)
+- `song_zhao_pu_influence.yaml` — Zhao Pu's institutional erosion method (赵普制度蚕食法)
 - `munger_multimodel.yaml` — Charlie Munger's latticework of mental models
 
 Provide a structured knowledge entry (inline or from a file):

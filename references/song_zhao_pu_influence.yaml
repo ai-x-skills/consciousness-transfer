@@ -1,0 +1,48 @@
+# 宋赵普制度蚕食法 / Zhao Pu's Institutional Erosion Method
+# 来源：宋史 / Source: Songshi (History of Song)
+
+title: 制度蚕食法
+description: >
+  以「完善制度」为名，逐步引入看似中立的新规则或新机构，在不直接冲突的情况下，
+  一块块吃掉对方原有的权力版图。被削权者因规矩已成，难以公开反对，最终权力不知不觉收归中央。
+  Under the guise of "improving systems," gradually introduce seemingly neutral new rules
+  or institutions. Without direct confrontation, eat away at the other party's power base
+  piece by piece. By the time the rules are established, those who lost power cannot openly
+  object — power不知不觉 returns to the center.
+
+mental_model:
+  - "Identify links in the current power structure that can be 'normalized' (e.g., personnel recommendations, general appointments, chancellor decision-making)."
+  - "Introduce new rules through imperial edicts, branded as 'preventing abuse,' 'testing reforms,' or 'selecting the worthy' —塑造 public legitimacy."
+  - "Make the new rules and institutions the only legal channel. Old practices naturally become obsolete. Power shifts to newly created positions held by trusted allies."
+
+context_trigger: >
+  When local power holders or powerful ministers have formed deeply entrenched interest networks,
+  and direct removal might provoke backlash. Instead, use "system optimization" to cut their power.
+
+decision_tree:
+  "Facing strong resistance": "Start with non-sensitive areas (e.g.,礼仪, examination details). Once they're accustomed, move to要害."
+  "Imperial backing is strong enough": "Create a new position like Vice Chancellor (参知政事) in one move to directly split core decision-making power."
+
+modern_parallel: >
+  A parent company, citing "strengthening compliance and risk prevention," requires all
+  large purchases to go through a newly established procurement committee. Department heads
+  can no longer independently choose suppliers — procurement power悄然 shifts to headquarters.
+
+counter_example: >
+  汉景帝时晁错直接下令削夺诸侯封地，因缺乏制度缓冲和正当性包装，引发七国之乱；
+  而后来汉武帝通过「推恩令」这一制度设计，让诸侯子弟分封，自然削弱诸侯，避免了剧烈动荡。
+  During Emperor Jing of Han, Chao Cuo directly ordered the seizure of vassal territories.
+  Without institutional buffering or legitimacy包装, this triggered the Rebellion of the
+  Seven Kingdoms. Later, Emperor Wu used the "Grace Decree" (推恩令) — a system design that
+  required vassal lands to be split among all sons — naturally weakening vassals without
+  provoking violent backlash.
+
+effectiveness: effective
+confidence: 0.85
+source_text: >
+  禁朝臣公荐贡举人。始置参知政事，以兵部侍郎薛居正、吕余庆为之。
+  诏县令、簿、尉非公事毋至村落。
+  诏诸道狱词令大理、刑部检详。
+source_citation: >
+  《宋史·太祖本纪》
+  Songshi, Chronicle of Taizu

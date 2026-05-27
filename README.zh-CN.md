@@ -160,6 +160,9 @@ source_citation: "出处引用"
 
 参见 [`references/`](./references/) 目录中的完整示例：
 - [`tang_taizong_decision.yaml`](./references/tang_taizong_decision.yaml) — 唐太宗兼听则明决策框架
+- [`han_wudi_multi_board.yaml`](./references/han_wudi_multi_board.yaml) — 汉武帝多棋盘并行博弈
+- [`ming_zhu_yuanzhang_startup.yaml`](./references/ming_zhu_yuanzhang_startup.yaml) — 明太祖借势立威独行
+- [`song_zhao_pu_influence.yaml`](./references/song_zhao_pu_influence.yaml) — 赵普制度蚕食法
 - [`munger_multimodel.yaml`](./references/munger_multimodel.yaml) — 芒格多元思维模型
 
 ---
@@ -216,6 +219,7 @@ consciousness-transfer/
 
 - 帝王认知体 (Emperor Cognition) 项目
 - 17 种来自中国帝王将相的认知模块
+- 5 条内置知识条目，覆盖汉唐宋明四朝及现代智慧
 - 5 项质量测试框架
 - 双层描述法（历史层 + 抽象层）
 

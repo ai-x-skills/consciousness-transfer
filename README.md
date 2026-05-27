@@ -160,7 +160,10 @@ source_citation: "Reference"
 ```
 
 See [`references/`](./references/) for complete examples:
-- [`tang_taizong_decision.yaml`](./references/tang_taizong_decision.yaml) — Tang Taizong's decision framework
+- [`tang_taizong_decision.yaml`](./references/tang_taizong_decision.yaml) — Tang Taizong's decision framework (兼听则明)
+- [`han_wudi_multi_board.yaml`](./references/han_wudi_multi_board.yaml) — Han Wudi's multi-board parallel博弈 (多棋盘并行博弈)
+- [`ming_zhu_yuanzhang_startup.yaml`](./references/ming_zhu_yuanzhang_startup.yaml) — Ming Taizu's startup three-phase model (借势立威独行)
+- [`song_zhao_pu_influence.yaml`](./references/song_zhao_pu_influence.yaml) — Zhao Pu's institutional erosion method (制度蚕食法)
 - [`munger_multimodel.yaml`](./references/munger_multimodel.yaml) — Charlie Munger's latticework of mental models
 
 ---
@@ -217,6 +220,7 @@ Material  Extraction     Gate      (this skill)
 
 - Emperor Cognition (帝王认知体) project
 - 17 cognitive modules from Chinese imperial history
+- 5 bundled knowledge entries covering Han, Tang, Song, Ming dynasties and modern wisdom
 - 5-test quality framework
 - Dual-layer description method (historical + abstract)
 
