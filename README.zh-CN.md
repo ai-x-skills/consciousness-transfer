@@ -4,7 +4,7 @@
 >
 > [English Documentation](./README.md)
 
-**帝王认知体 (Emperor Cognition) 项目的一部分。**
+**[帝王认知体 (Emperor's Aura)](https://github.com/ai-x-soul/emperors-aura) 项目的一部分。**
 
 ---
 
@@ -78,7 +78,7 @@ Skill 会自动匹配相关的知识条目，引导你完成整个流程。
 
 **方式 B**：指定 YAML 文件
 ```
-学习这个模型：references/tang_taizong_decision.yaml
+学习这个模型：references/tang_taizong_opposing_views.yaml
 ```
 
 **方式 C**：内联 YAML
@@ -159,11 +159,11 @@ source_citation: "出处引用"
 ```
 
 参见 [`references/`](./references/) 目录中的完整示例：
-- [`tang_taizong_decision.yaml`](./references/tang_taizong_decision.yaml) — 唐太宗兼听则明决策框架
+- [`tang_taizong_opposing_views.yaml`](./references/tang_taizong_opposing_views.yaml) — 唐太宗兼听则明决策框架
 - [`han_wudi_multi_board.yaml`](./references/han_wudi_multi_board.yaml) — 汉武帝多棋盘并行博弈
-- [`ming_zhu_yuanzhang_startup.yaml`](./references/ming_zhu_yuanzhang_startup.yaml) — 明太祖借势立威独行
-- [`song_zhao_pu_influence.yaml`](./references/song_zhao_pu_influence.yaml) — 赵普制度蚕食法
-- [`munger_multimodel.yaml`](./references/munger_multimodel.yaml) — 芒格多元思维模型
+- [`ming_taizu_borrow_momentum.yaml`](./references/ming_taizu_borrow_momentum.yaml) — 明太祖借势立威独行
+- [`song_zhaopu_institutional_erosion.yaml`](./references/song_zhaopu_institutional_erosion.yaml) — 赵普制度蚕食法
+- [`modern_munger_latticework.yaml`](./references/modern_munger_latticework.yaml) — 芒格多元思维模型
 
 ---
 
@@ -196,8 +196,11 @@ consciousness-transfer/
     plugin.json              # 插件身份清单
     marketplace.json         # Marketplace 清单（用于发现和安装）
   references/
-    tang_taizong_decision.yaml   # 唐太宗兼听则明决策框架
-    munger_multimodel.yaml       # 芒格多元思维模型
+    tang_taizong_opposing_views.yaml       # 唐太宗兼听则明决策框架
+    han_wudi_multi_board.yaml              # 汉武帝多棋盘并行博弈
+    modern_munger_latticework.yaml         # 芒格多元思维模型
+    ming_taizu_borrow_momentum.yaml        # 明太祖借势立威独行
+    song_zhaopu_institutional_erosion.yaml # 赵普制度蚕食法
   SKILL.md                   # Skill 核心指令
   README.md                  # 英文文档
   README.zh-CN.md            # 本文件
@@ -208,7 +211,9 @@ consciousness-transfer/
 
 ## 帝王认知体项目
 
-本 skill 是更大系统的一环：
+本 skill 是 [帝王认知体 (Emperor's Aura)](https://github.com/ai-x-soul/emperors-aura) 的**交付层**——帝王认知体从中国历代帝王将相身上萃取可迁移的认知模式，本 skill 负责将这些模式内化到用户脑中。
+
+### 数据管线
 
 ```
 采集 → 萃取 → 验证 → 迁移
@@ -217,11 +222,30 @@ consciousness-transfer/
 素材    萃取      门控   （本 skill）
 ```
 
-- 帝王认知体 (Emperor Cognition) 项目
-- 17 种来自中国帝王将相的认知模块
-- 5 条内置知识条目，覆盖汉唐宋明四朝及现代智慧
-- 5 项质量测试框架
-- 双层描述法（历史层 + 抽象层）
+- **上游**：[帝王认知体](https://github.com/ai-x-soul/emperors-aura) — 从维基百科、维基文库等采集史料，通过 Claude API 萃取意识体，5 项质量测试验证
+- **本 skill**：将验证通过的知识条目，通过四阶段引导帮助用户内化
+
+### 17 种认知模块
+
+帝王认知体定义了三大类 17 种可迁移思维模块：
+
+**帝王 8 种思维操作系统**：决策框架、识人术、博弈思维、危机心智、权力认知、时代洞察、失败模式、成长弧线
+
+**大臣 4 种思维操作系统**：谏言术、影响力、生存智慧、改革方法论
+
+**君臣碰撞思维实验**：认知互补、认知冲突、认知移植、势认知、时智慧
+
+### 当前覆盖
+
+`references/` 中的 5 条内置条目是精选样本。帝王认知体已萃取 **112+ 条意识体**，覆盖汉唐宋明清等多朝代。随上游项目成熟，可持续扩展本 skill 的知识条目。
+
+### 质量保障体系
+
+每条知识条目均通过帝王认知体的 5 项质量验证（可迁移性、具体性、可证伪性、证据性、反例性），0–5.0 分制，低于 3.0 分重新萃取。本 skill 内置条目均精选自通过验证的意识体。
+
+### 扩展新条目
+
+你可以按照 [YAML 格式](#知识条目格式)创建自己的知识条目，放入 `references/` 目录即可。如需经过历史验证的高质量条目，参见[帝王认知体数据管线](https://github.com/ai-x-soul/emperors-aura)。
 
 ---
 

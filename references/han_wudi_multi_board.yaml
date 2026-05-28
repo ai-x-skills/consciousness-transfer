@@ -3,12 +3,10 @@
 
 title: 多棋盘并行博弈
 description: >
-  面对内乱、外敌、权贵勾结等多重威胁时，不是只打一个怪，而是同时在每个棋盘上落子：
-  镇压叛乱、切断串联、收买民心、震慑外敌，一手上硬一手给甜头。
   When facing multiple simultaneous threats (internal rebellion, external enemies,
   elite collusion), don't tackle them one at a time. Make moves on every board at once:
-  suppress rebellion, sever connections, buy民心, deter adversaries — hard power in one hand,
-  incentives in the other.
+  suppress rebellion, sever connections, rally public support, deter adversaries —
+  hard power in one hand, incentives in the other.
 
 mental_model:
   - "List all competing or hostile forces (rebels, foreign enemies, local strongmen, corrupt officials) and assess their urgency."
@@ -21,26 +19,25 @@ context_trigger: >
   your bottom line. Resources are limited but authority cannot be lost.
 
 decision_tree:
-  "Armed rebels blocking roads and attacking cities": "Dispatch直属 enforcement (绣衣使者) to suppress in multiple columns; execute implicated local officials."
+  "Armed rebels blocking roads and attacking cities": "Dispatch direct enforcement (Embroidered-Uniform Envoys) to suppress in multiple columns; execute implicated local officials."
   "Local elites colluding remotely with rebels": "Tighten border inspections immediately; cut off information and personnel flows."
-  "Foreign enemy invading the border": "Execute local commanders who show cowardice as a deterrent, then mobilize multi-pronged大军 to counterattack."
+  "Foreign enemy invading the border": "Execute local commanders who show cowardice as a deterrent, then mobilize multi-pronged forces to counterattack."
 
 modern_parallel: >
-  A tech company CEO faces simultaneously: product under舆论 attack for security issues,
-  regional distributors截单 like warlords, and competitors挖走 key talent while pressuring
-  the supply chain. The response: immediately fire the regional head and hand to legal,
-  tighten backend anti-fraud monitoring to cut off串货 channels, announce stock buyback
-  and user subsidies, and simultaneously file patent lawsuits against competitors while
-  launching new products with fanfare.
+  A tech company CEO faces simultaneously: product under public attack for security issues,
+  regional distributors diverting orders like warlords, and competitors poaching key talent
+  while pressuring the supply chain. The response: immediately fire the regional head
+  and hand the case to legal, tighten backend anti-fraud monitoring to cut off
+  unauthorized distribution channels, announce stock buyback and user subsidies,
+  and simultaneously file patent lawsuits against competitors while launching
+  new products with fanfare.
 
 counter_example: >
-  汉武帝晚年巫蛊之祸时，仍坚持多线高压：追查太子谋反、清洗官员、同时对外用兵，
-  结果信任完全崩盘，太子被迫起兵被杀，朝廷险些分裂，多棋盘操作反噬成宗族血洗。
   In his later years during the Witchcraft Disaster, Han Wudi maintained multi-board
   high pressure: investigating the crown prince's rebellion, purging officials, and
-  waging external wars simultaneously. Trust completely崩盘, the crown prince was forced
-  to rebel and was killed, the court nearly split — the multi-board strategy backfired
-  into clan bloodbath.
+  waging external wars simultaneously. Trust completely collapsed, the crown prince
+  was forced to rebel and was killed, the court nearly split — the multi-board
+  strategy backfired into a clan bloodbath.
 
 effectiveness: mixed
 confidence: 0.92

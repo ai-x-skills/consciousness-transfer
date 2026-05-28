@@ -3,15 +3,15 @@
 
 title: 兼听则明
 description: >
-  在重大决策前，主动寻找对立观点，通过信息对抗来发现盲点。
-  唐太宗以"以人为镜"闻名，核心不是听谏，而是结构化地制造观点冲突。
   When making major decisions, actively seek opposing viewpoints and use
-  information confrontation to discover blind spots.
+  information confrontation to discover blind spots. Tang Taizong was known
+  for "using people as mirrors" — the core is not merely listening to advice,
+  but structurally creating viewpoint conflicts.
 
 mental_model:
   - "Identify the decision: What exactly needs to be decided? Write it down in one sentence."
-  - "Seek the strongest反对意见: Who disagrees? What is their best argument?"
-  - "Seek the strongest支持意见: Who agrees? What is their best argument?"
+  - "Seek the strongest opposing view: Who disagrees? What is their best argument?"
+  - "Seek the strongest supporting view: Who agrees? What is their best argument?"
   - "Find the contradiction: Where do the two sides fundamentally differ? That's your breakthrough point."
   - "Verify information sources: Which claims are backed by evidence? Which are speculation?"
   - "Decide, then track: Make the decision. Set a review date. Measure the outcome."
@@ -33,14 +33,13 @@ modern_parallel: >
   experiment to test both predictions.
 
 counter_example: >
-  隋炀帝杨广在征高丽前，群臣几乎一致反对，但他只听支持者的意见，
-  忽视了所有警告信号。三次征高丽均失败，直接导致隋朝灭亡。
-  这个模型的失败条件：当决策者已经有强烈的先入为主时，"兼听"变成形式——
-  他只会寻找支持自己观点的证据，而非真正对立的观点。
-  Emperor Yang of Sui ignored unanimous反对 before his three failed
-  campaigns against Goguryeo. The model fails when the decision-maker
-  has strong priors — "seeking opposing views" becomes performative,
-  only finding evidence that supports the predetermined conclusion.
+  Emperor Yang of Sui ignored unanimous opposition before his three failed
+  campaigns against Goguryeo, disregarding all warning signs. The three
+  campaigns all failed, directly leading to the fall of the Sui dynasty.
+  The model fails when the decision-maker already has strong priors —
+  "seeking opposing views" becomes performative, only finding evidence
+  that supports the predetermined conclusion rather than genuinely
+  opposing viewpoints.
 
 effectiveness: effective
 confidence: 0.9

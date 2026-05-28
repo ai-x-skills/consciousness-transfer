@@ -4,7 +4,7 @@
 >
 > [中文文档 / Chinese Documentation](./README.zh-CN.md)
 
-**Part of the Emperor Cognition (帝王认知体) project.**
+**Part of the [Emperor's Aura (帝王认知体)](https://github.com/ai-x-soul/emperors-aura) project.**
 
 ---
 
@@ -79,7 +79,7 @@ The skill will match your situation to a relevant knowledge entry and guide you 
 
 **Option B**: Point to a YAML file
 ```
-Learn this model: references/tang_taizong_decision.yaml
+Learn this model: references/tang_taizong_opposing_views.yaml
 ```
 
 **Option C**: Inline YAML in your message
@@ -160,11 +160,11 @@ source_citation: "Reference"
 ```
 
 See [`references/`](./references/) for complete examples:
-- [`tang_taizong_decision.yaml`](./references/tang_taizong_decision.yaml) — Tang Taizong's decision framework (兼听则明)
-- [`han_wudi_multi_board.yaml`](./references/han_wudi_multi_board.yaml) — Han Wudi's multi-board parallel博弈 (多棋盘并行博弈)
-- [`ming_zhu_yuanzhang_startup.yaml`](./references/ming_zhu_yuanzhang_startup.yaml) — Ming Taizu's startup three-phase model (借势立威独行)
-- [`song_zhao_pu_influence.yaml`](./references/song_zhao_pu_influence.yaml) — Zhao Pu's institutional erosion method (制度蚕食法)
-- [`munger_multimodel.yaml`](./references/munger_multimodel.yaml) — Charlie Munger's latticework of mental models
+- [`tang_taizong_opposing_views.yaml`](./references/tang_taizong_opposing_views.yaml) — Tang Taizong's opposing views framework (兼听则明)
+- [`han_wudi_multi_board.yaml`](./references/han_wudi_multi_board.yaml) — Han Wudi's multi-board parallel game (多棋盘并行博弈)
+- [`ming_taizu_borrow_momentum.yaml`](./references/ming_taizu_borrow_momentum.yaml) — Ming Taizu's borrow-momentum model (借势立威独行)
+- [`song_zhaopu_institutional_erosion.yaml`](./references/song_zhaopu_institutional_erosion.yaml) — Zhao Pu's institutional erosion method (制度蚕食法)
+- [`modern_munger_latticework.yaml`](./references/modern_munger_latticework.yaml) — Charlie Munger's latticework of mental models
 
 ---
 
@@ -197,8 +197,11 @@ consciousness-transfer/
     plugin.json              # Plugin identity manifest
     marketplace.json         # Marketplace manifest for discovery & install
   references/
-    tang_taizong_decision.yaml   # Tang Taizong's decision framework
-    munger_multimodel.yaml       # Charlie Munger's latticework of mental models
+    tang_taizong_opposing_views.yaml       # Tang Taizong's opposing views framework (兼听则明)
+    han_wudi_multi_board.yaml              # Han Wudi's multi-board parallel game (多棋盘并行博弈)
+    modern_munger_latticework.yaml         # Charlie Munger's latticework of mental models
+    ming_taizu_borrow_momentum.yaml        # Ming Taizu's borrow-momentum model (借势立威独行)
+    song_zhaopu_institutional_erosion.yaml # Zhao Pu's institutional erosion method (制度蚕食法)
   SKILL.md                   # Core skill instructions
   README.md                  # This file
   README.zh-CN.md            # Chinese documentation
@@ -207,9 +210,11 @@ consciousness-transfer/
 
 ---
 
-## Part of Emperor Cognition
+## Part of Emperor's Aura
 
-This skill is one piece of a larger system:
+This skill is the **delivery layer** of the [Emperor's Aura](https://github.com/ai-x-soul/emperors-aura) (帝王认知体) project — a system that extracts transferable cognitive patterns from Chinese imperial history.
+
+### Data Pipeline
 
 ```
 Scrape → Extract → Validate → Transfer
@@ -218,11 +223,30 @@ Source    Consciousness  Quality   Internalization
 Material  Extraction     Gate      (this skill)
 ```
 
-- Emperor Cognition (帝王认知体) project
-- 17 cognitive modules from Chinese imperial history
-- 5 bundled knowledge entries covering Han, Tang, Song, Ming dynasties and modern wisdom
-- 5-test quality framework
-- Dual-layer description method (historical + abstract)
+- **Upstream**: [Emperor's Aura](https://github.com/ai-x-soul/emperors-aura) — scrapes historical sources, extracts consciousness entities via Claude API, validates with a 5-test quality framework
+- **This skill**: Takes validated knowledge entries and guides users through the four-phase internalization process
+
+### The 17 Cognitive Modules
+
+Emperor's Aura defines 17 transferable thinking modules across three categories:
+
+**Emperor's 8 Operating Systems**: decision framework, people reading, game theory, crisis psychology, power cognition, era insight, failure patterns, growth arc
+
+**Minister's 4 Operating Systems**: advisory framework, influence mechanism, survival intelligence, reform methodology
+
+**Emperor-Minister Interactions**: cognitive complement, cognitive clash, cognitive transplant, *shi* cognition, timing wisdom
+
+### Current Coverage
+
+The 5 bundled entries in `references/` are curated samples. Emperor's Aura has extracted **112+ consciousness entities** covering Han, Tang, Song, Ming, Qing dynasties and more. As the upstream project matures, additional entries can be added to this skill.
+
+### Quality Framework
+
+Every knowledge entry passes Emperor's Aura's 5-test validation (transferability, specificity, falsifiability, evidence, counter-example), scored 0–5.0. Entries below 3.0 are re-extracted. The bundled entries in this skill are curated from passing entities.
+
+### Extending with New Entries
+
+You can create your own knowledge entries following the [YAML format](#knowledge-entry-format) and drop them into `references/`. For high-quality, historically validated entries, see the [Emperor's Aura data pipeline](https://github.com/ai-x-soul/emperors-aura).
 
 ---
 

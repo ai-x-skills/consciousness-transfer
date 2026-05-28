@@ -36,15 +36,15 @@ Do NOT activate for:
 Provide a structured knowledge entry in one of three ways:
 
 1. **Inline YAML** — paste the knowledge entry directly in the conversation
-2. **File reference** — point to a YAML file (e.g., `references/tang_taizong_decision.yaml`)
+2. **File reference** — point to a YAML file (e.g., `references/tang_taizong_opposing_views.yaml`)
 3. **Situation description** — describe your real-world dilemma; the skill will match it to a relevant entry
 
 Bundled examples are available in [`references/`](./references/):
-- `tang_taizong_decision.yaml` — Tang Taizong's decision framework (唐太宗兼听则明)
+- `tang_taizong_opposing_views.yaml` — Tang Taizong's opposing views framework (唐太宗兼听则明)
 - `han_wudi_multi_board.yaml` — Han Wudi's multi-board parallel game (汉武帝多棋盘并行博弈)
-- `ming_zhu_yuanzhang_startup.yaml` — Ming Taizu's startup three-phase model (明太祖借势立威独行)
-- `song_zhao_pu_influence.yaml` — Zhao Pu's institutional erosion method (赵普制度蚕食法)
-- `munger_multimodel.yaml` — Charlie Munger's latticework of mental models
+- `ming_taizu_borrow_momentum.yaml` — Ming Taizu's borrow-momentum model (明太祖借势立威独行)
+- `song_zhaopu_institutional_erosion.yaml` — Zhao Pu's institutional erosion method (赵普制度蚕食法)
+- `modern_munger_latticework.yaml` — Charlie Munger's latticework of mental models
 
 Provide a structured knowledge entry (inline or from a file):
 
@@ -288,6 +288,31 @@ Before presenting a knowledge entry to the user, verify:
 - If `confidence > 0.7`, there should be a credible `source_citation`
 - If any of these fail, note the weakness to the user.
 
+### Language Adaptation 语言适配
+
+Knowledge entries are written in English for structural fields (`mental_model`, `description`, `counter_example`, `decision_tree`, `context_trigger`, `modern_parallel`), with Chinese preserved only for `title` (cultural identity), `source_text` (original historical text), and `source_citation` (original reference).
+
+**Adapt output language to match the user's language:**
+- **Chinese users**: Keep `title` in its original Chinese form (e.g., "兼听则明"). Present all other content in Chinese. When telling the story (Phase 1), read `source_text` in the original Chinese and narrate in modern Chinese. Quote key original phrases.
+- **English users**: Present everything in English. Explain the `title` in English (e.g., "兼听则明 — Seek Opposing Views"). Translate `source_text` into English narration, preserving the flavor of the original.
+- **Mixed-language users**: Follow the primary language of their input.
+
 ### Brand 品牌
 
-This skill is part of the **Emperor Cognition** (帝王认知体) project — a system that extracts transferable cognitive patterns from Chinese imperial history. The four-phase methodology (感悟用破) is inspired by Chinese classical education traditions: 记 (memorize), 悟 (comprehend), 用 (apply), 化 (internalize).
+This skill is part of the **Emperor's Aura** (帝王认知体) project — a system that extracts transferable cognitive patterns from Chinese imperial history. The four-phase methodology (感悟用破) is inspired by Chinese classical education traditions: 记 (memorize), 悟 (comprehend), 用 (apply), 化 (internalize).
+
+Upstream project: [Emperor's Aura](https://github.com/ai-x-soul/emperors-aura) — 112+ consciousness entities across 17 cognitive modules, extracted via Claude API and validated with a 5-test quality framework.
+
+### Data Source & Extension 数据源与扩展
+
+The 5 bundled entries in `references/` are curated samples from the Emperor's Aura project. The full dataset covers:
+
+- **8 Emperor modules**: decision framework, people reading, game theory, crisis psychology, power cognition, era insight, failure patterns, growth arc
+- **4 Minister modules**: advisory framework, influence mechanism, survival intelligence, reform methodology
+- **5 Interaction modules**: cognitive complement, cognitive clash, cognitive transplant, *shi* cognition, timing wisdom
+
+To add new entries:
+1. Follow the [YAML format](#input) above
+2. Ensure the entry passes the Quality Gate checks
+3. Drop the file into `references/`
+4. For historically validated entries, see [Emperor's Aura](https://github.com/ai-x-soul/emperors-aura)
